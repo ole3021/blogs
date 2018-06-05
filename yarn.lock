@@ -27,6 +27,13 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+axios@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
+  dependencies:
+    follow-redirects "^1.3.0"
+    is-buffer "^1.1.5"
+
 before-after-hook@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/before-after-hook/-/before-after-hook-1.1.0.tgz#83165e15a59460d13702cb8febd6a1807896db5a"
@@ -75,11 +82,18 @@ esprima@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.0.tgz#4499eddcd1110e0b218bacf2fa7f7f59f55ca804"
 
-ghp-blogs@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/ghp-blogs/-/ghp-blogs-0.1.1.tgz#7dcb8b84c1bb8478f13d4677b1561a375b2de2b6"
+follow-redirects@^1.3.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.0.tgz#234f49cf770b7f35b40e790f636ceba0c3a0ab77"
+  dependencies:
+    debug "^3.1.0"
+
+gh-blogs@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/gh-blogs/-/gh-blogs-0.2.1.tgz#30747594c53c2ce2f8ea0d7194a36e00d148fa96"
   dependencies:
     "@octokit/rest" "^15.8.0"
+    axios "^0.18.0"
     lokijs "^1.5.5"
     marked "^0.4.0"
     moh-error "^1.1.0"
@@ -113,7 +127,7 @@ inherits@2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
 
-is-buffer@~1.1.1:
+is-buffer@^1.1.5, is-buffer@~1.1.1:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
 
