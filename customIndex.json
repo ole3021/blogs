@@ -1,8 +1,12 @@
 [
   {
-    "title": "番茄工作法"
+    "id": "tomato",
+    "title": "番茄工作法",
+    "path": "/blogs/Knowledge/Git%20Best%20Prictical.md"
   },
   {
-    "title": "自建ShadowSocks服务备忘录"
+    "id": "ss",
+    "title": "自建ShadowSocks服务备忘录",
+    "path": "/blogs/Knowledge/SS.md"
   }
 ]
