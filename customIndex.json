@@ -1,11 +1,13 @@
 [
   {
     "id": "tomato",
+    "cover": "https://raw.githubusercontent.com/ole3021/blogs/master/assets/pomodoro.jpg",
     "title": "番茄工作法",
     "path": "/blogs/Knowledge/Git%20Best%20Prictical.md"
   },
   {
     "id": "ss",
+    "cover": "https://raw.githubusercontent.com/ole3021/blogs/master/assets/sss.jpg",
     "title": "自建ShadowSocks服务备忘录",
     "path": "/blogs/Knowledge/SS.md"
   }
