@@ -17,7 +17,7 @@ created: 2016-08-03
 分散管理： 分散是指针对不同的团队/开发人员，在功能完成提交到`origin`之前，使用自己单独的repo管理，多人的任务协同也可通过分散的分支进行同步。
 >  每个开发人员都可以从其他非核心repo中`pull`代码变更。
 
-![repos](/assets/images/post/git_repos.png)
+![repos](/assets/git_repos.png)
 代码repo和交互关系示意图。
 
 ## 主要的分支
