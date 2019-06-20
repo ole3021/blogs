@@ -4,7 +4,6 @@ meta: 'Summary of JavaScript Scope and Closure knowledge based on "You Don''t Kn
 category: JavaScript
 tags: [Don't Know JS]
 cover: /blog-images/scope_closure.png
-color: '#606060'
 created: 2016-03-13
 ---
 

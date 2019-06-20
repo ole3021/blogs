@@ -4,7 +4,6 @@ meta: 'Git分支管理来解决多功能多版并行开发中合并和管理代�
 category: Knowledge
 tags: [git]
 cover: /blog-images/git.jpg
-color: '#FFFFFF'
 created: 2016-08-03
 ---
 

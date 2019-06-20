@@ -4,7 +4,6 @@ meta: 《敏开武士》阅读总结，包含敏捷开发的团队建设，项�
 category: Software_Enginerring
 tags: [code, agile]
 cover: /blog-images/agile-samurai.jpg
-color: '#606060'
 created: 2016-02-22
 ---
 

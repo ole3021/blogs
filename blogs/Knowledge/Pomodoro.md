@@ -4,7 +4,6 @@ meta: '根据大脑的工作规律总结的单项行动的计划方法，通过�
 category: Knowledge
 tags: [agile]
 cover: /blog-images/pomodoro.jpg
-color: '#606060'
 created: 2016-03-08
 ---
 
