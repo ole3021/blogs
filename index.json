@@ -1,0 +1,52 @@
+[
+  {
+    "id": "Scope-Closure",
+    "cover": "/blog-images/scope_closure.png",
+    "path": "/blogs/Javascript/Scope&Closure.md",
+    "title": "Scope & Closure",
+    "intro": "Summary of JavaScript Scope and Closure knowledge based on \"You Don't Know JS\" series books.",
+    "category": "JavaScript",
+    "tags": ["Don't Know JS"],
+    "createdAt": "2016-03-13T00:00:00.000Z"
+  },
+  {
+    "id": "Git-Best-Prictical",
+    "cover": "/blog-images/git.jpg",
+    "path": "/blogs/Knowledge/Git Best Prictical.md",
+    "title": "Git管理最佳实践",
+    "intro": "Git分支管理来解决多功能多版并行开发中合并和管理代码的问题。",
+    "category": "Knowledge",
+    "tags": ["git"],
+    "createdAt": "2016-08-03T00:00:00.000Z"
+  },
+  {
+    "id": "Pomodoro",
+    "cover": "/blog-images/pomodoro.jpg",
+    "path": "/blogs/Knowledge/Pomodoro.md",
+    "title": "番茄工作法",
+    "intro": "根据大脑的工作规律总结的单项行动的计划方法，通过使用固定的工作方法来提高工作效率、减少干扰、减少压力和不必要的担忧并在过程中自我改进从容的达成预期目标。",
+    "category": "Knowledge",
+    "tags": ["agile"],
+    "createdAt": "2016-03-08T00:00:00.000Z"
+  },
+  {
+    "id": "SS",
+    "cover": "/blog-images/sss.jpg",
+    "path": "/blogs/Knowledge/SS.md",
+    "title": "自建ShadowSocks服务备忘录",
+    "intro": "通过手动在虚拟云主机上搭建实现ShadowSocks服务，并使用Google BBR来加速访问速度。",
+    "category": "Knowledge",
+    "tags": ["sss"],
+    "createdAt": "2017-08-08T00:00:00.000Z"
+  },
+  {
+    "id": "Agile-Development",
+    "cover": "/blog-images/agile-samurai.jpg",
+    "path": "/blogs/Software Engineering/Agile Development.md",
+    "title": "敏捷开发知识总结",
+    "intro": "《敏开武士》阅读总结，包含敏捷开发的团队建设，项目开发，项目管理，以及如何交付敏捷项目的开发结果。",
+    "category": "Software_Enginerring",
+    "tags": ["code", "agile"],
+    "createdAt": "2016-02-22T00:00:00.000Z"
+  }
+]

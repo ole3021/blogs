@@ -10,7 +10,8 @@
     "build": "node ./build.js"
   },
   "dependencies": {
-    "gh-blogs": "^0.2.1"
+    "front-matter": "^3.0.2",
+    "shorthash": "^0.0.2"
   },
   "prettier": {
     "singleQuote": true,

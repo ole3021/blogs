@@ -1,20 +1,26 @@
-const GHBlog = require('gh-blogs');
+const fs = require('fs');
+const { loadBlogs, generateMetaInfo } = require('./utils');
 
-const blogRepo = 'https://github.com/ole3021/blogs';
-const options = {
-  folder: './blogs',
-  dbFile: './blogs.db'
-};
+const info = loadBlogs('./blogs');
+console.info('>>> load blog success');
+const meta = generateMetaInfo(info, './');
+console.info('>>> generate meta info success');
 
-const myBlogs = new GHBlog(blogRepo, options);
+const blogIndex = meta
+  .map((item) => ({
+    id: item._id,
+    cover: item.meta.cover,
+    path: item.path,
+    title: item.meta.title,
+    intro: item.meta.meta,
+    category: item.meta.category,
+    tags: item.meta.tags,
+    createdAt: item.meta.created
+  }))
+  .filter((item) => item.id && item.cover && item.path && item.title);
 
-const dumpFile = async () => {
-  try {
-    await myBlogs.dumpFile();
-    console.log('>>> Generate successfully.');
-  } catch (error) {
-    console.log('>>> Faild to generate index', error);
-  }
-};
+fs.writeFileSync('./index.json', JSON.stringify(blogIndex, 2), 'utf8');
 
-dumpFile();
+console.log('>>> write to index success');
+
+process.exit(0);
